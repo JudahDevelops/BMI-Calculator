@@ -6,11 +6,6 @@
 
 }
 
-:root {
-    --box-cool:  0px 0px 30px var(--box-cool-color);
-    --box-cool-color: rgb(68, 68, 68);
-    --box-cool-inputs: 0px 5px 7px var(--box-cool-color);
-}
 
 html {
     font-size: 16px;
@@ -31,14 +26,12 @@ body {
     z-index: 1;
     position: relative;
     background-color: black;
-    box-shadow: var(--box-cool);
-    text-shadow: var(--box-cool);
 }
 
 
 div, form, button {
-    border: 7px solid white;
-    border-radius: 30px;
+    border: 4px solid white;
+    border-radius: 20px;
     color: white;
 }
 
@@ -48,7 +41,7 @@ form {
     justify-content: center;
     align-items: center;
     width: fit-content;
-    padding: 8em 2em 4em;
+    padding: 8em 2em 2em;
     gap: 4em;
     margin: auto;
     margin-top: -4.4em;
@@ -65,12 +58,10 @@ label {
 
 label p {
     padding: 0.3em 0.4em;
-    border-left: 4px solid white;
-    border-right: 4px solid white;
+    border: 3.5px solid white;
     width: 5em;
-    border-radius: 10px;
+    border-radius: 9px;
     text-align: center;
-    cursor: not-allowed;
     font-weight: bold;
     
 }
@@ -80,9 +71,9 @@ label input {
     font-size: 1em;
     padding: 0.3em 1em;
     width: 9em;
-    border-radius: 9px;
+    border-radius: 4px;
     border: none;
-    border-bottom: 4px solid white;
+    border-bottom: 3px solid white;
     background-color: black;
     color: white;
     transition: all 0.7s;
@@ -98,12 +89,13 @@ button {
     padding: 0.5em 2em;
     font-size: 1.7em;
     transition: all 0.3s;
-    box-shadow: 0px 0px 14px rgb(87, 87, 87);
+    
 }
 
 button:hover, button:active {
     border-color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 219, 219);
     color: black;
+    box-shadow: 0px 0px 14px rgb(54, 54, 54);
     
 }
