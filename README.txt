@@ -1,0 +1,2 @@
+##BMI CALCULATOR 
+Upon starting the js beta course on FCC i decided to build this and use this project to build my foundational knowledge of how js workes with the website and also to learn how to use codeium.
