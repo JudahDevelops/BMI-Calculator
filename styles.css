@@ -1,0 +1,109 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+:root {
+    --box-cool:  0px 0px 30px var(--box-cool-color);
+    --box-cool-color: rgb(68, 68, 68);
+    --box-cool-inputs: 0px 5px 7px var(--box-cool-color);
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    padding-top: 10vh;
+}
+
+.big-title {
+    font-size: 1.4em;
+    text-align: center;
+    width: fit-content;
+    padding: 1.3em 1em;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    background-color: black;
+    box-shadow: var(--box-cool);
+    text-shadow: var(--box-cool);
+}
+
+
+div, form, button {
+    border: 7px solid white;
+    border-radius: 30px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 8em 2em 4em;
+    gap: 4em;
+    margin: auto;
+    margin-top: -4.4em;
+    z-index: 0;
+    position: relative;
+   
+}
+
+label {
+    font-size: 1.2em;
+    display: flex;
+    gap: 1.3em;
+}
+
+label p {
+    padding: 0.3em 0.4em;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    width: 5em;
+    border-radius: 10px;
+    text-align: center;
+    cursor: not-allowed;
+    font-weight: bold;
+    
+}
+
+label input {
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 0.3em 1em;
+    width: 9em;
+    border-radius: 9px;
+    border: none;
+    border-bottom: 4px solid white;
+    background-color: black;
+    color: white;
+    transition: all 0.7s;
+}
+
+label input:active, label input:hover {
+    background-color: rgb(24, 24, 24);
+
+}
+
+button {
+    background-color: black;
+    padding: 0.5em 2em;
+    font-size: 1.7em;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 14px rgb(87, 87, 87);
+}
+
+button:hover, button:active {
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
